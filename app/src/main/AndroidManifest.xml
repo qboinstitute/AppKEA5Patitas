@@ -9,15 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppKEA5Patitas">
-        <activity android:name=".view.RegistroActivity"></activity>
-        <activity android:name=".view.LoginActivity" />
-        <activity android:name=".view.MainActivity">
+        <activity
+            android:name=".view.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.AppKEA5Patitas.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".view.RegistroActivity">
+
+        </activity>
+        <activity android:name=".view.LoginActivity" />
+        <activity android:name=".view.MainActivity"></activity>
     </application>
 
 </manifest>

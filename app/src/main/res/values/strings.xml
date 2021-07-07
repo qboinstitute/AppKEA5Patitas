@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">AppKEA5Patitas</string>
+    <string name="usuariologin">Ingrese su usuario</string>
+    <string name="passwordlogin">Ingrese su password</string>
+    <string name="recordarlogin">¿Recordar datos?</string>
+    <string name="btnlogin">INGRESAR</string>
+    <string name="btnregistrar">REGISTRATE AQUÍ</string>
+    <string name="nombregistro">Ingrese su nombre</string>
+    <string name="apellidoregistro">Ingrese sus apellidos</string>
+    <string name="emailregistro">Ingrese su email</string>
+    <string name="celularregistro">Ingrese su celular</string>
+    <string name="usuarioregistro">Ingrese su usuario</string>
+    <string name="passwordregistro">Ingrese su password</string>
+    <string name="passwordrep">Repita su password</string>
+    <string name="valbtnregusuario">REGISTRAR</string>
+    <string name="valbtnirlogin">REGRESAR A LOGIN</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="valnavlistamascota">Mascotas Perdidas</string>
+    <string name="valnavvoluntario">Voluntario</string>
 </resources>
