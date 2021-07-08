@@ -7,4 +7,10 @@
     <color name="teal_700">#FF26418f</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="snackbarerror">#E11A1A</color>
+    <color name="snackbarexito">#1DAA45</color>
+    <color name="snackbaradver">#D8853F</color>
+
+
 </resources>
