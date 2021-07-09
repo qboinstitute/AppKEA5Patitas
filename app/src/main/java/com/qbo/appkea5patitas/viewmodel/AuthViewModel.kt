@@ -19,7 +19,7 @@ class AuthViewModel : ViewModel() {
     }
     fun autenticarUsuario(usuario: String, password: String) {
         responseLogin = repository.autenticarUsuario(
-            RequestLogin(usuario, password)
+            RequestLogin(password, usuario)
         )
     }
     fun registrarUsuario(nombre: String, apellidos: String, email: String,
