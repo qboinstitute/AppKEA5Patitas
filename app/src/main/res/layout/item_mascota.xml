@@ -12,18 +12,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <ImageView
+        <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/ivmascota"
-            android:layout_width="131dp"
+            android:layout_width="115dp"
             android:layout_height="139dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/imgsplash" />
+            tools:src="@drawable/imgsplash" />
 
         <TextView
             android:id="@+id/tvnommascota"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
             android:text="TextView"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -38,8 +42,11 @@
             android:id="@+id/tvlugar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
             android:layout_marginTop="8dp"
             android:text="TextView"
+            android:textSize="12sp"
             android:textStyle="italic"
             app:layout_constraintBottom_toTopOf="@+id/tvfechaperdida"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -51,8 +58,11 @@
             android:id="@+id/tvfechaperdida"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
             android:layout_marginTop="8dp"
             android:text="TextView"
+            android:textSize="12sp"
             android:textStyle="italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -81,7 +91,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_begin="306dp" />
+            app:layout_constraintGuide_begin="280dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </com.google.android.material.card.MaterialCardView>
