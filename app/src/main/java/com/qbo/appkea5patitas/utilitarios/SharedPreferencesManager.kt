@@ -3,7 +3,7 @@ package com.qbo.appkea5patitas.utilitarios
 import android.content.Context.MODE_PRIVATE
 import android.content.SharedPreferences
 
-class SharedPreferencesManager {
+class SharedPreferencesManager() {
 
     private val APP_SETTINGS_FILE = "APP_SETTINGS"
 
