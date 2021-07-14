@@ -41,10 +41,11 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
             binding.cbrecordar.text = "Quitar el check para ingresar con otro usuario"
             personaViewModel.obtener()
                 .observe(this, Observer { persona ->
-                    persona.let {
-                        binding.etusuario.setText(it.usuario)
+                    persona?.let {
+                        binding.etusuario.setText(persona.usuario)
                         binding.etpassword.setText(persona.password)
                     }
+
                 })
         }else{
             personaViewModel.eliminartodo()
@@ -68,7 +69,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
             val personaEntity = PersonaEntity(
                 response.idpersona.toInt(), response.apellidos, response.celular,
                 response.email, response.esvoluntario, response.nombres,
-                response.usuario, response.password)
+                response.password, response.usuario)
             if(verificarCheckRecordarDatos()){
                 personaViewModel.actualizar(personaEntity)
             }else{
